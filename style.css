@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(yellow, chocolate, cyan);
+}
+h1{
+    background-color: rgb(237, 115, 115);
+    padding: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#botão1{
+    float: right;
+}
+canvas{
+    border-style: ridge;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 20px;
+    animation-name: borda;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;    
+}
+@keyframes borda {
+    from {box-shadow: 1px 1px 38px yellow;}
+    to {box-shadow: 1px 1px 38px cyan;}
+}
